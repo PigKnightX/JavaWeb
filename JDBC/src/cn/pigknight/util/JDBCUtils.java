@@ -25,7 +25,7 @@ public class JDBCUtils {
             ClassLoader classLoader = JDBCUtils.class.getClassLoader();
             URL res = classLoader.getResource("jdbc.properties");
             String path = res.getPath();
-            //System.out.println(path);
+            // System.out.println(path);
             //2.加载文件
             //pro.load(new FileReader("src/jdbc.properties"));
             pro.load(new FileReader(path));
