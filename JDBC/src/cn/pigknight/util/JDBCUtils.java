@@ -20,7 +20,6 @@ public class JDBCUtils {
         try {
             //1.Properties集合类
             Properties pro = new Properties();
-
             //获取src路径下的文件的方式----ClassLoader
             ClassLoader classLoader = JDBCUtils.class.getClassLoader();
             URL res = classLoader.getResource("jdbc.properties");
